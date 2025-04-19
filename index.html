@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clencee ChemHub</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Stunny-X ChemHubs</a></h1>
+        <input type="text" id="searchBar" placeholder="Search here" oninput="filterProducts()">
+    </header>
+<div class="main">
+    <div class="products">
+        <div class="product" data-name="beautysoap">
+            <img src="beautysoap.jpg" alt="Beauty soap">
+            <div class="product-content">
+            <h3>Beauty Soap</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Beauty soap', 120)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="bluesoap">
+            <img src="bluesoap.jpg" alt="bluesoap">
+            <div class="product-content">
+            <h3>Blue Soap</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Blue soap', 120)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="decorativesoap">
+            <img src="decorativesoap.jpg" alt="decorativesoap">
+            <div class="product-content">
+            <h3>Decorative soap</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Decorative soap', 120)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="bubblesoap">
+            <img src="bubblesoap.jpg" alt="bubblesoap">
+            <div class="product-content">
+            <h3>Bubble soap</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Bubble soap', 130)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="decorativesopa">
+            <img src="decorativesopa.jpg" alt="decorativesopa">
+            <div class="product-content">
+            <h3>Decoratives</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Decoratives', 130)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="strongbar">
+            <img src="strongbar.jpg" alt="strongbar">
+            <div class="product-content">
+            <h3>Block Bar Soap</h3>
+            <p>Price:Ksh.120</p>
+            <button onclick="addToCart('Block Bar soap', 120)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="decorativesoap1">
+            <img src="decorativesoap1.jpg" alt="decorativesoap1">
+            <div class="product-content">
+            <h3>Decorative soapies</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Decorative soapies', 120)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="decorativesoap1">
+            <img src="decorativesoap1.jpg" alt="decorativesoap1">
+            <div class="product-content">
+            <h3>Decorative soapies</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Decorative soapies', 120)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="decorativesoap1">
+            <img src="decorativesoap1.jpg" alt="decorativesoap1">
+            <div class="product-content">
+            <h3>Decorative soapies</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Decorative soapies', 120)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="decorativesoap1">
+            <img src="decorativesoap1.jpg" alt="decorativesoap1">
+            <div class="product-content">
+            <h3>Decorative soapies</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Decorative soapies', 120)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="decorativesoap1">
+            <img src="decorativesoap1.jpg" alt="decorativesoap1">
+            <div class="product-content">
+            <h3>Decorative soapies</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Decorative soapies', 120)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+        <div class="product" data-name="decorativesoap1">
+            <img src="decorativesoap1.jpg" alt="decorativesoap1">
+            <div class="product-content">
+            <h3>Decorative soapies</h3>
+            <p>Price: Ksh.120</p>
+            <button onclick="addToCart('Decorative soapies', 120)" class="btn">Add To Cart</button>
+        </div>
+        </div>
+    </div>
+    <div class="cart">
+    <h2>Your Cart</h2>
+    <div id="cart"></div>
+    <h3 id="total"></h3>
+    <button onclick="checkout()" class="btn1">Order</button>
+    </div>
+</div>
+    <script src="scripts.js"></script>
+</body>
+</html>
