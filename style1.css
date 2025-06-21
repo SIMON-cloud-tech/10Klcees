@@ -150,12 +150,7 @@ body {
  font-weight: bolder;
  font-style: italic;
   font-size: 30px;
-}
-.head h4 .supp{
-  color: gainsboro;
-}
-.head h4 .build{
-  color: plum;
+  color: black;
 }
 .social{
   display: flex;
